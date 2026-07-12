@@ -1,0 +1,14 @@
+[package]
+name = "etw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }
+models = { path = "../models" }
+ferrisetw = "1.2"
+tokio = { workspace = true }
+tracing = { workspace = true }
+windows = { workspace = true }
+lazy_static = "1.4"
+serde_json = { workspace = true }

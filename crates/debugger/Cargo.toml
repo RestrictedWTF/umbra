@@ -1,0 +1,13 @@
+[package]
+name = "debugger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }
+models = { path = "../models" }
+disassembler = { path = "../disassembler" }
+dbgeng = { path = "../dbgeng" }
+extensions = { path = "../extensions" }
+tokio = { workspace = true }
+windows = { workspace = true }

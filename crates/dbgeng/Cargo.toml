@@ -1,0 +1,9 @@
+[package]
+name = "dbgeng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }
+models = { path = "../models" }
+windows = { workspace = true }

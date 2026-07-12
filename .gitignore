@@ -1,0 +1,11 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+
+# Debug / editor cruft
+*.pdb
+.vscode/
+.idea/
+.docs/
+.mcp-config/
+.pipeTestVMWin10Pro_Dbg
